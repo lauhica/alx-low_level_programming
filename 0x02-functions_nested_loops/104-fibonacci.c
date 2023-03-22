@@ -24,4 +24,3 @@ int main(void)
 
 	fib1_half1 = fib1 / 10000000000;
 	fib2_ha
-}

@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main - tests function taht prints if integer is
- * positive or negative.
+ * main - tests function taht prints if integer positive or negative.
  * Return: 0
  */
 

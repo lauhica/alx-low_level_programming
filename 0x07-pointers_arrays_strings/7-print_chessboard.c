@@ -1,24 +1,24 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_chessboard - Function used to print chessboard
- * @a: the row in which the array is located
- * Return: Nothing
+ * @a: the row of the array
+ * Return: nothing
  */
 void print_chessboard(char (*a)[8])
 {
-	int b, c;
+	int i, j;
 
-	for (b = 0; b < 8; b = b + 1)
+	i = j = 0;
+	while (i < 8)
 	{
-		for (c = 0; c < 8; c = c + 1)
+		j = 0;
+		while (j < 8)
 		{
-			if (c == 7)
-			{
-				_putchar(a[b][c]);
-				_putchar('\n');
-			}
-			else
-				_putchar(a[b][c]);
+			_putchar(a[i][j]);
+			j = j + 1;
 		}
+		_putchar('\n');
+		i = i + 1;
 	}
 }

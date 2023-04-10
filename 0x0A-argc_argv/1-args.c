@@ -7,9 +7,9 @@
  * @argv: second argument
  * Return: 0
  */
-int main(int argc, char *argv[])
+int main(__attribute__((unused)) int argc,
+__attribute__((unused)) char **argv)
 {
-	(void) *argc;
-	printf("argc = %d\n", argc - 1);
+	printf("%d\n", argc - 1);
 	return (0);
 }

@@ -15,7 +15,7 @@ typedef struct dog
 	char *name;
 	char *owner;
 	float age;
-} my_dog;
+} dog_t;
 
 #endif
 
@@ -23,5 +23,7 @@ typedef struct dog
 #define MAIN_C
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+void free_dog(dog_t *d);
 
 #endif

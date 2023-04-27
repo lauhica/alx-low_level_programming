@@ -1,7 +1,5 @@
 #include "lists.h"
-#include <string.h>
-#include <stdlib.h>
-#include <stddef.h>
+
 /**
  * list_len - function used to print out the number
  * of items that are stored in a singly linked list

@@ -3,7 +3,7 @@
 /**
  * binary_to_uint - function used to convert a
  * binary value into a positive value
- * @b: pointer pointing to a constant character
+ * @b: the pointer pointing to a constant character
  * Return: converted number or 0 if one or more
  * characters in string b are not 0 or 1
  */
